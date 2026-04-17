@@ -1,0 +1,231 @@
+/* NAVBAR */
+.header-sticky-wrapper {
+  min-height: 9.3rem;
+}
+
+.navbar {
+  width: 130rem;
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-offwhite);
+}
+
+.navbar.sticky {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  z-index: 1000;
+  background-color: rgba(10, 10, 10, 0.3);
+  backdrop-filter: blur(5px);
+}
+
+.main-logo {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3.2rem;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.main-logo:focus-visible {
+  transform: scale(1.08);
+  border: 1px solid var(--color-primary);
+  border-radius: 15px;
+  box-shadow:
+    inset 0 0 0.8rem var(--color-primary),
+    0 0 0.8rem var(--color-primary);
+}
+
+.nav-button {
+  background: none;
+  height: 4.4rem;
+  width: 4.4rem;
+  position: fixed;
+  top: 1rem;
+  right: 2.5%;
+
+  z-index: 2000;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-icon {
+  position: relative;
+}
+
+.nav-icon,
+.nav-icon::before,
+.nav-icon::after {
+  width: 3rem;
+  height: 2px;
+  background-color: var(--color-offwhite);
+  display: inline-block;
+  transition: all 0.2s;
+}
+
+.nav-icon::before,
+.nav-icon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+}
+
+.nav-icon::before {
+  top: -0.8rem;
+}
+.nav-icon::after {
+  top: 0.8rem;
+}
+
+.nav-button.active .nav-icon {
+  background-color: transparent;
+}
+
+.nav-button.active .nav-icon::before {
+  top: 0;
+  transform: rotate(135deg);
+}
+
+.nav-button.active .nav-icon::after {
+  top: 0;
+  transform: rotate(-135deg);
+}
+
+.nav-background {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 1.5rem;
+  right: 3%;
+  background-image: radial-gradient(var(--color-dark), var(--color-very-dark));
+  z-index: 1000;
+  transition: transform 0.8s cubic-bezier(0.83, 0, 0.17, 1);
+  pointer-events: none;
+}
+
+.nav-background.expanded {
+  transform: scale(80);
+}
+
+.nav-fullscreen {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  opacity: 0;
+  z-index: 1500;
+  transition: all 0.8s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.nav-fullscreen.visible {
+  opacity: 1;
+  width: 100%;
+}
+
+.mobile-nav-list {
+  list-style: none;
+  text-align: center;
+  width: 100%;
+}
+
+.nav-item {
+  margin: 2rem;
+}
+
+.nav-link-mobile {
+  font-size: 3rem;
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.4s;
+}
+
+.nav-link-mobile:hover {
+  color: var(--color-primary);
+}
+
+.nav-links {
+  display: flex;
+  gap: 3.6rem;
+  list-style: none;
+}
+
+.nav-link,
+.nav-link:link,
+.nav-link:visited {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid transparent;
+  transition: all 0.1s ease;
+
+  position: relative;
+}
+
+.nav-link:focus-visible {
+  outline: none;
+  border: 1px solid var(--color-primary);
+  border-radius: 15px;
+  box-shadow:
+    inset 0 0 0.8rem var(--color-primary),
+    0 0 0.8rem var(--color-primary);
+}
+
+.nav-link .underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  background-color: var(--color-offwhite);
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: all 0.3s ease;
+}
+
+.nav-link.active .underline {
+  transform: scaleX(1);
+}
+
+/* 920px */
+@media only screen and (max-width: 57.5em) {
+  .nav-links {
+    gap: 2rem;
+  }
+}
+
+/* 640px */
+@media only screen and (max-width: 40em) {
+  .navbar {
+    padding: 1rem 0;
+  }
+
+  .main-logo {
+    font-size: 2.8rem;
+  }
+}

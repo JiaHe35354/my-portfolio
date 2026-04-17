@@ -1,0 +1,36 @@
+/* ABOUT SECTION */
+.about-section {
+  display: grid;
+  grid-template-columns: 45fr 55fr;
+  column-gap: 2rem;
+  border-bottom: var(--border-bottom);
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 4.8rem;
+}
+
+.about-description {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+/* 640px */
+@media only screen and (max-width: 40em) {
+  .about-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-content {
+    gap: 4rem;
+  }
+
+  .about-description {
+    gap: 0.8rem;
+  }
+}

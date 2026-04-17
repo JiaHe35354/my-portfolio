@@ -1,0 +1,97 @@
+.contact-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.4rem;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-heading {
+  margin-bottom: 1.6rem;
+}
+
+.contact-content p {
+  padding: 0.5rem 0;
+}
+
+.contact-content p a {
+  text-decoration: none;
+  color: var(--color-white);
+  border-bottom: 1px solid var(--color-primary);
+  padding: 0.3rem 0;
+  cursor: pointer;
+}
+
+.icon-group {
+  display: flex;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.copyright {
+  margin-top: auto;
+  font-size: 1.6rem;
+  color: var(--color-offwhite);
+}
+
+.copyright-tablet {
+  font-size: 1.6rem;
+  margin-top: 1.6rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.form-control label {
+  font-size: 1.6rem;
+  color: var(--color-offwhite);
+}
+
+.form-control input {
+  height: 5rem;
+}
+
+.form-control input,
+.form-control textarea {
+  padding: 1.2rem 1.6rem;
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  border: none;
+  border-radius: 5px;
+  font: inherit;
+  font-weight: 300;
+}
+
+.submit-btn {
+  align-self: start;
+  margin-top: 1.6rem;
+}
+
+/* 980px */
+@media only screen and (max-width: 61.25em) {
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    gap: 6.4rem;
+  }
+
+  .form-control input {
+    height: 4.5rem;
+  }
+
+  .submit-btn {
+    margin-top: 0.8rem;
+  }
+}
