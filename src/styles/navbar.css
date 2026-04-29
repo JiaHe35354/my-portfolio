@@ -1,6 +1,7 @@
 /* NAVBAR */
 .header-sticky-wrapper {
-  min-height: 9.3rem;
+  min-height: 9rem;
+  position: relative;
 }
 
 .navbar {
@@ -12,6 +13,9 @@
   justify-content: space-between;
   align-items: center;
   color: var(--color-offwhite);
+  box-sizing: border-box;
+
+  transition: background-color 0.3s ease;
 }
 
 .navbar.sticky {
@@ -19,6 +23,7 @@
   top: 0;
   right: 0;
   left: 0;
+  padding: 2rem 0;
 
   z-index: 1000;
   background-color: rgba(10, 10, 10, 0.3);
@@ -26,13 +31,15 @@
 }
 
 .main-logo {
+  vertical-align: middle;
+  display: inline-block;
   font-family: "Bebas Neue", sans-serif;
   font-size: 3.2rem;
   font-weight: 500;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   padding: 0.5rem 1rem;
-  background: transparent;
+  text-decoration: none;
   color: inherit;
   cursor: pointer;
   outline: none;
@@ -58,8 +65,8 @@
   right: 2.5%;
 
   z-index: 2000;
-  cursor: pointer;
   border: none;
+  /* outline: none; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,13 +115,16 @@
 }
 
 .nav-background {
-  height: 5rem;
-  width: 5rem;
+  height: 4.4rem;
+  width: 4.4rem;
   border-radius: 50%;
   position: fixed;
-  top: 1.5rem;
-  right: 3%;
-  background-image: radial-gradient(var(--color-dark), var(--color-very-dark));
+  top: 1rem;
+  right: 2.5%;
+  background-image: radial-gradient(
+    var(--color-dark-gray),
+    var(--color-very-dark)
+  );
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.83, 0, 0.17, 1);
   pointer-events: none;
@@ -221,6 +231,10 @@
 
 /* 640px */
 @media only screen and (max-width: 40em) {
+  .header-sticky-wrapper {
+    min-height: 7rem;
+  }
+
   .navbar {
     padding: 1rem 0;
   }

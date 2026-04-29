@@ -33,6 +33,10 @@
   gap: 0.3rem;
 }
 
+.skill-icon {
+  /* background-color: var(--color-dark-gray); */
+}
+
 /* 980px */
 @media only screen and (max-width: 61.25em) {
   .skills-section {

@@ -1,4 +1,4 @@
-import HeroImage from "../assets/images/demo-profile.png";
+import HeroImage from "../assets/images/img-hero.jpg";
 import LinkedinIcon from "../assets/images/icon-linkedin.svg";
 import GithubIcon from "../assets/images/icon-github.svg";
 import CtaICon from "../assets/images/icon-cta.svg";
@@ -11,7 +11,7 @@ function Hero() {
   }
 
   return (
-    <section className="hero-section">
+    <section className="hero-section" id="hero">
       <div className="hero-content">
         <h1 className="heading-primary">Hey, I'm Jia He</h1>
         <p className="hero-description">

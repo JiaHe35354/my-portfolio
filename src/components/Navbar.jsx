@@ -36,7 +36,7 @@ function Navbar() {
   function handleClickLink(e) {
     e.preventDefault();
 
-    const link = e.target.closest(".nav-link, .nav-link-mobile");
+    const link = e.target.closest(".nav-link, .nav-link-mobile, .main-logo");
     if (!link) return;
 
     setIsMenuOpen(false);
@@ -50,7 +50,9 @@ function Navbar() {
   return (
     <header ref={headerRef} className={isSticky ? "header-sticky-wrapper" : ""}>
       <nav ref={navRef} className={`navbar ${isSticky ? "sticky" : ""}`}>
-        <button className="main-logo">Jia He</button>
+        <a className="main-logo" href="#hero" onClick={handleClickLink}>
+          JH
+        </a>
         {isMobile && (
           <div className="mobile-nav-wrapper">
             <button
