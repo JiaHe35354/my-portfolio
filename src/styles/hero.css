@@ -31,7 +31,14 @@
 .btnGroup {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
+}
+
+.btnGroup a {
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-img-box {
@@ -45,6 +52,7 @@
   display: block;
   width: 100%;
   height: auto;
+  border-radius: 1.8rem;
 }
 
 /* 1100px */
@@ -52,10 +60,18 @@
   .hero-section {
     gap: 4rem;
   }
+
+  .hero-content {
+    gap: 1.5rem;
+  }
+
+  .hero-description {
+    margin-bottom: 0;
+  }
 }
 
-/* 820px */
-@media only screen and (max-width: 51.25em) {
+/* 980px */
+@media only screen and (max-width: 61.25em) {
   .hero-section {
     display: flex;
     flex-direction: column;

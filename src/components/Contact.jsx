@@ -8,13 +8,18 @@ function Contact() {
   return (
     <section className="contact-section section-container" id="contact">
       <div className="contact-content">
-        <h2 className="heading-secondary contact-heading">Let's connect</h2>
-        <p className="description-text">
+        <h2 className="heading-secondary mb-16">Let's connect</h2>
+        <p>
           Say hello at{" "}
-          <a href="mailto:jia.he5823@gmail.com">jia.he5823@gmail.com</a>
+          <a href="mailto:jia.he5823@gmail.com" className="focus-style">
+            jia.he5823@gmail.com
+          </a>
         </p>
-        <p className="description-text">
-          For more info, here's my <a>resume</a>
+        <p>
+          For more info, here's my{" "}
+          <a href="#" className="focus-style">
+            resume
+          </a>
         </p>
 
         <div className="icon-group">
@@ -22,6 +27,7 @@ function Contact() {
             href="https://www.linkedin.com/in/jia-he-6b329197/"
             target="_blank"
             rel="noreferrer"
+            className="focus-style"
           >
             <img src={LinkedinIcon} alt="linkedin" />
           </a>
@@ -29,6 +35,7 @@ function Contact() {
             href="https://github.com/JiaHe35354"
             target="_blank"
             rel="noreferrer"
+            className="focus-style"
           >
             <img src={GithubIcon} alt="github" />
           </a>
@@ -58,7 +65,7 @@ function Contact() {
           <textarea rows={5} id="message" name="message" />
         </div>
 
-        <button className="btn-primary submit-btn">submit</button>
+        <button className="btn-primary submit-btn focus-style">submit</button>
       </form>
 
       {isTablet && <p className="copyright-tablet">&copy;2026 Jia He</p>}

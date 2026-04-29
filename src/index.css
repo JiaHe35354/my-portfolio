@@ -1,12 +1,12 @@
 :root {
-  --color-primary: #d3e97a;
+  --color-primary: #00b9e8;
+  --color-blue-light: #89cff0;
   --color-white: #ffffff;
   --color-black: #000000;
-  --color-offwhite: #c7c7c7;
-  --color-dark: #1a1a1a;
-  --color-very-dark: #0a0a0a;
-  --color-dark-gray: #484848;
-  --border-bottom: 1px solid #484848;
+  --color-dark: rgb(33, 36, 61);
+  --color-grey: #8695a4;
+
+  --border-bottom: 1px solid #e5e4e2;
 }
 
 * {
@@ -24,8 +24,8 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 1.8rem;
   line-height: 1.5;
-  color: var(--color-white);
-  background-color: var(--color-very-dark);
+  color: var(--color-dark);
+  background-color: var(--color-white);
 }
 
 /* UTILITIES */
@@ -42,7 +42,7 @@ body {
 
 .heading-primary {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 10rem;
+  font-size: 9.2rem;
   font-weight: 500;
   line-height: 0.9;
   text-transform: uppercase;
@@ -58,7 +58,7 @@ body {
 
 .heading-tertiary {
   font-size: 3.2rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.2;
 }
 
@@ -66,7 +66,7 @@ body {
   height: 5.4rem;
   cursor: pointer;
   background: var(--color-primary);
-  color: var(--color-black);
+  color: var(--color-white);
   font-family: inherit;
   font-size: 1.6rem;
   font-weight: 600;
@@ -75,40 +75,20 @@ body {
   border-radius: 100px;
   padding: 0 2rem;
 
+  display: flex;
+  align-items: center;
+
   transition: all 0.2s ease;
 }
 
-.btn-primary:focus-visible {
+.focus-style:focus-visible {
   outline: 2px solid var(--color-primary);
   outline-offset: 2px;
 }
 
-.btn-flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-
-  padding: 0 6rem 0 2rem;
-}
-
-.btn-icon-wrapper {
-  width: 4rem;
-  height: 4rem;
-  background-color: var(--color-very-dark);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: auto;
-
-  position: absolute;
-  top: 0.7rem;
-  right: 0.7rem;
-}
-
-.description-text {
-  color: var(--color-offwhite);
+.btn-icon {
+  margin-left: 1rem;
+  fill: currentColor;
 }
 
 .mb-12 {

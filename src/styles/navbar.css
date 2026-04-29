@@ -8,11 +8,11 @@
   width: 130rem;
   max-width: 95%;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: var(--color-offwhite);
+  color: var(--color-black);
   box-sizing: border-box;
 
   transition: background-color 0.3s ease;
@@ -23,10 +23,10 @@
   top: 0;
   right: 0;
   left: 0;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
 
   z-index: 1000;
-  background-color: rgba(10, 10, 10, 0.3);
+  background-color: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(5px);
 }
 
@@ -34,9 +34,10 @@
   vertical-align: middle;
   display: inline-block;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 3.2rem;
+  font-size: 4rem;
+  line-height: 1;
   font-weight: 500;
-  letter-spacing: 1.5px;
+  letter-spacing: 4px;
   text-transform: uppercase;
   padding: 0.5rem 1rem;
   text-decoration: none;
@@ -48,7 +49,6 @@
 }
 
 .main-logo:focus-visible {
-  transform: scale(1.08);
   border: 1px solid var(--color-primary);
   border-radius: 15px;
   box-shadow:
@@ -61,12 +61,11 @@
   height: 4.4rem;
   width: 4.4rem;
   position: fixed;
-  top: 1rem;
+  top: 2.5rem;
   right: 2.5%;
 
   z-index: 2000;
   border: none;
-  /* outline: none; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,7 +80,7 @@
 .nav-icon::after {
   width: 3rem;
   height: 2px;
-  background-color: var(--color-offwhite);
+  background-color: var(--color-white);
   display: inline-block;
   transition: all 0.2s;
 }
@@ -119,11 +118,11 @@
   width: 4.4rem;
   border-radius: 50%;
   position: fixed;
-  top: 1rem;
+  top: 2.5rem;
   right: 2.5%;
   background-image: radial-gradient(
-    var(--color-dark-gray),
-    var(--color-very-dark)
+    var(--color-primary),
+    var(--color-blue-light)
   );
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.83, 0, 0.17, 1);
@@ -211,7 +210,7 @@
   bottom: 0;
   left: 0;
   height: 2px;
-  background-color: var(--color-offwhite);
+  background-color: var(--color-black);
   width: 100%;
   transform: scaleX(0);
   transform-origin: center;
@@ -240,6 +239,6 @@
   }
 
   .main-logo {
-    font-size: 2.8rem;
+    /* font-size: 2.8rem; */
   }
 }

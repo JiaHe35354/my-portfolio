@@ -18,7 +18,7 @@ function ProjectCard({
 
       <div className="project-info-box">
         <h3 className="heading-tertiary mb-16">{title}</h3>
-        <p className="description-text mb-32">{description}</p>
+        <p className="mb-32">{description}</p>
         <p className="project-info">Project info</p>
         <p className="project-year">
           <span>Year</span>
@@ -36,30 +36,38 @@ function ProjectCard({
 
         <div className="project-links">
           <a
-            className="project-link"
+            className="project-link focus-style"
             href={liveLink}
             target="_blank"
             rel="noopener noreferrer"
           >
-            Live demo{" "}
-            <img
-              src={CtaIcon}
-              alt="call to action icon"
-              className="project-cta-icon"
-            />
+            {" "}
+            <div className="link-wrapper">
+              Live demo{" "}
+              <img
+                src={CtaIcon}
+                alt="call to action icon"
+                className="project-cta-icon"
+              />
+            </div>
+            <div className="link-underline"></div>
           </a>
+
           <a
-            className="project-link"
+            className="project-link focus-style"
             href={github}
             target="_blank"
             rel="noopener noreferrer"
           >
-            See on GitHub{" "}
-            <img
-              src={GithubIcon}
-              alt="github icon"
-              className="project-gh-icon"
-            />
+            <div className="link-wrapper">
+              See on GitHub{" "}
+              <img
+                src={GithubIcon}
+                alt="github icon"
+                className="project-gh-icon"
+              />
+            </div>
+            <div className="link-underline"></div>
           </a>
         </div>
       </div>

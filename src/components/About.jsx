@@ -11,7 +11,7 @@ function About() {
             I am a front-end developer based in Seville looking for exciting
             opportunities.
           </h3>
-          <p className="description-text">
+          <p>
             I am a front-end developer based in Seville looking for exciting
             opportunities. Likes to focus on accessibility when developing.
             Passionate and curious about solving problems. Currently, I'm
@@ -20,11 +20,9 @@ function About() {
           </p>
         </div>
 
-        <button className="btn-primary btn-flex">
+        <button className="btn-primary focus-style">
           download resume
-          <div className="btn-icon-wrapper">
-            <img src={DownloadIcon} alt="download icon" className="btn-icon" />
-          </div>
+          <img src={DownloadIcon} alt="download icon" className="btn-icon" />
         </button>
       </div>
     </section>

@@ -53,6 +53,7 @@ function Navbar() {
         <a className="main-logo" href="#hero" onClick={handleClickLink}>
           JH
         </a>
+
         {isMobile && (
           <div className="mobile-nav-wrapper">
             <button

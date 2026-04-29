@@ -38,12 +38,12 @@ function Projects() {
   return (
     <section className="projects-section section-container" id="projects">
       <h2 className="heading-secondary">Featured projects</h2>
-      <p className="projects-text description-text">
+      <p className="projects-text">
         Here are some of the selected projects that showcase my passion for
         front-end development.
       </p>
 
-      <ul className="project-list">
+      <ul className="projects-list">
         {projects.map((project) => (
           <ProjectCard key={project.title} {...project} />
         ))}

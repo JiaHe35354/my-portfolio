@@ -1,7 +1,6 @@
 import HeroImage from "../assets/images/img-hero.jpg";
 import LinkedinIcon from "../assets/images/icon-linkedin.svg";
 import GithubIcon from "../assets/images/icon-github.svg";
-import CtaICon from "../assets/images/icon-cta.svg";
 
 import { smoothScrollTo } from "../util/smoothScrollTo";
 
@@ -16,23 +15,22 @@ function Hero() {
         <h1 className="heading-primary">Hey, I'm Jia He</h1>
         <p className="hero-description">
           <span className="hero-occupation">Frontend Developer</span>
-          <span className="description-text block">
+          <span className="block">
             A Seville based front-end developer passionate about building
             accessible and user friendly websites.
           </span>
         </p>
 
         <div className="btnGroup">
-          <button className="btn-primary btn-flex" onClick={handleScroll}>
+          <button className="btn-primary focus-style" onClick={handleScroll}>
             contact me
-            <div className="btn-icon-wrapper">
-              <img src={CtaICon} alt="download icon" className="btn-icon" />
-            </div>
           </button>
+
           <a
             href="https://www.linkedin.com/in/jia-he-6b329197/"
             target="_blank"
             rel="noreferrer"
+            className="focus-style"
           >
             <img src={LinkedinIcon} alt="linkedin" />
           </a>
@@ -40,6 +38,7 @@ function Hero() {
             href="https://github.com/JiaHe35354"
             target="_blank"
             rel="noreferrer"
+            className="focus-style"
           >
             <img src={GithubIcon} alt="github" />
           </a>
