@@ -51,7 +51,7 @@ function Navbar() {
     <header ref={headerRef} className={isSticky ? "header-sticky-wrapper" : ""}>
       <nav ref={navRef} className={`navbar ${isSticky ? "sticky" : ""}`}>
         <a className="main-logo" href="#hero" onClick={handleClickLink}>
-          JH
+          Jiahe
         </a>
 
         {isMobile && (

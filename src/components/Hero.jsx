@@ -14,10 +14,13 @@ function Hero() {
       <div className="hero-content">
         <h1 className="heading-primary">Hey, I'm Jia He</h1>
         <p className="hero-description">
-          <span className="hero-occupation">Frontend Developer</span>
-          <span className="block">
-            A Seville based front-end developer passionate about building
-            accessible and user friendly websites.
+          <span className="hero-occupation">
+            Frontend Developer | React & Next.js
+          </span>
+          <span className="hero-text descriptive-text">
+            A Seville-based Frontend Developer focused on turning complex
+            designs into working products with React and Next.js. Currently
+            seeking my first Junior Frontend role.
           </span>
         </p>
 

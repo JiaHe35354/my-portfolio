@@ -18,7 +18,7 @@ function ProjectCard({
 
       <div className="project-info-box">
         <h3 className="heading-tertiary mb-16">{title}</h3>
-        <p className="mb-32">{description}</p>
+        <p className="mb-32 descriptive-text">{description}</p>
         <p className="project-info">Project info</p>
         <p className="project-year">
           <span>Year</span>

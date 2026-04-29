@@ -28,6 +28,11 @@
   margin-bottom: 2rem;
 }
 
+.hero-text {
+  display: block;
+  font-weight: 500;
+}
+
 .btnGroup {
   display: flex;
   align-items: center;

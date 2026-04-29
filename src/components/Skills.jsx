@@ -30,7 +30,11 @@ function Skills() {
       <h2 className="heading-secondary mb-12">My capabilities</h2>
 
       <div className="skills-content">
-        <p>I am always looking to add more skills.</p>
+        <p className="descriptive-text">
+          A look at my <strong>technical stack</strong>. I use these tools to
+          build <strong>polished web experiences</strong> that focus on clean
+          code and great user experience
+        </p>
 
         <ul className="skills-list">
           {skillsIcons.map((skill) => (
