@@ -16,7 +16,7 @@ function About() {
             <strong>Seville</strong> with a passion for building websites that
             are <strong>clean, fast, and easy to use</strong>. Over the last two
             years, I have been mastering <strong>React and Next.js</strong> to
-            turn complex designs into high-quality code. I care deeply about
+            turn complex designs into high-quality code. I care deeply about{" "}
             <strong>accessibility</strong> and making sure the web works for
             everyone. Currently, I am expanding my skills with{" "}
             <strong>Node.js</strong> and <strong>TypeScript</strong> to become a

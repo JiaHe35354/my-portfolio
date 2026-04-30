@@ -16,8 +16,6 @@
 }
 
 .project-card {
-  min-height: 55rem;
-
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -25,17 +23,15 @@
 }
 
 .project-image-box {
-  max-width: 60rem;
   height: 100%;
   border-radius: 1.5rem;
-  background-color: rgba(190, 191, 197, 0.3);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .project-image-box img {
-  width: 90%;
+  width: 100%;
   height: auto;
   border-radius: 1.5rem;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
@@ -128,7 +124,10 @@
 /* 1024 */
 @media only screen and (max-width: 64em) {
   .project-card {
-    gap: 3rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
   }
 
   .project-image-box img {
@@ -158,10 +157,6 @@
   }
 
   .project-card {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
   }
 
   .project-info-box {
