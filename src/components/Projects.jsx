@@ -38,7 +38,7 @@ const projects = [
     description: (
       <>
         A <strong>modern e-commerce website</strong> for high-end audio gear.
-        The app features a<strong>smooth shopping flow</strong>, from browsing
+        The app features a <strong>smooth shopping flow</strong>, from browsing
         product categories to adding items to a{" "}
         <strong>functional shopping cart</strong>. It includes a{" "}
         <strong>detailed checkout page</strong> with form validation to ensure
@@ -62,7 +62,7 @@ const projects = [
         <strong>search for specific countries</strong> or{" "}
         <strong>filter them by region</strong> to find information quickly. The
         app features a <strong>detailed info page</strong> for every country,
-        showing facts like population, native name, and borders. I also built a
+        showing facts like population, native name, and borders. I also built a{" "}
         <strong>custom color theme toggle</strong> so users can easily switch
         between a light and dark look.
       </>
