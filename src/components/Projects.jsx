@@ -9,8 +9,9 @@ const projects = [
     title: "Kanban Task Management",
     description: (
       <>
-        A <strong>fully functional, responsive</strong> task management app that
-        helps you <strong>organize project work</strong>. Built to be{" "}
+        A <strong>fully functional, responsive</strong> task management app
+        built as a Frontend Mentor challenge that helps you{" "}
+        <strong>organize project work</strong>. Built to be{" "}
         <strong>easy to use</strong> and <strong>clean</strong>, the app helps
         users manage large projects by putting tasks into{" "}
         <strong>boards and columns you can change</strong>. It features{" "}
@@ -37,12 +38,12 @@ const projects = [
     title: "Audiophile E-commerce Website",
     description: (
       <>
-        A <strong>modern e-commerce website</strong> for high-end audio gear.
-        The app features a <strong>smooth shopping flow</strong>, from browsing
-        product categories to adding items to a{" "}
-        <strong>functional shopping cart</strong>. It includes a{" "}
-        <strong>detailed checkout page</strong> with form validation to ensure
-        all user details are correct. The design is{" "}
+        A <strong>modern e-commerce website</strong> built as a Frontend Mentor
+        challenge for high-end audio gear. The app features a{" "}
+        <strong>smooth shopping flow</strong>, from browsing product categories
+        to adding items to a <strong>functional shopping cart</strong>. It
+        includes a <strong>detailed checkout page</strong> with form validation
+        to ensure all user details are correct. The design is{" "}
         <strong>fully responsive</strong>, making sure the store looks great and
         is easy to navigate on <strong>phones, tablets, and desktops</strong>.
       </>
@@ -57,8 +58,8 @@ const projects = [
     title: "REST Countries API",
     description: (
       <>
-        An <strong>interactive world map app</strong> that pulls real-time data
-        from a global API. Users can{" "}
+        An <strong>interactive world map app</strong> built as a Frontend Mentor
+        challenge that pulls real-time data from a global API. Users can{" "}
         <strong>search for specific countries</strong> or{" "}
         <strong>filter them by region</strong> to find information quickly. The
         app features a <strong>detailed info page</strong> for every country,
