@@ -17,7 +17,7 @@ function Hero() {
           <span className="hero-occupation">
             Frontend Developer | React & Next.js
           </span>
-          <span className="hero-text descriptive-text">
+          <span className="hero-text descriptive-text mb-12">
             A Seville-based Frontend Developer focused on turning complex
             designs into working products with React and Next.js. Currently
             seeking my first Junior Frontend role.

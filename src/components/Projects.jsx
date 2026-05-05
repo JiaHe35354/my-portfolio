@@ -88,8 +88,9 @@ function Projects() {
     <section className="projects-section section-container" id="projects">
       <h2 className="heading-secondary">Featured projects</h2>
       <p className="projects-text">
-        Here are some of the selected projects that showcase my passion for
-        front-end development.
+        Below are selected projects from <strong>Frontend Mentor</strong>{" "}
+        challenges. These projects demonstrate my ability to transform
+        professional designs into functional, responsive web applications.
       </p>
 
       <ul className="projects-list">

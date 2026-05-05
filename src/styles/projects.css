@@ -34,7 +34,7 @@
   width: 100%;
   height: auto;
   border-radius: 1.5rem;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  box-shadow: var(--shadow);
 }
 
 .project-info {
@@ -128,10 +128,6 @@
     display: flex;
     flex-direction: column;
     gap: 4rem;
-  }
-
-  .project-image-box img {
-    width: 90%;
   }
 
   .project-tools ul {
