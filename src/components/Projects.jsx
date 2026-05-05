@@ -21,7 +21,8 @@ const projects = [
         (Light/Dark mode) carefully designed to look great in any workspace.
       </>
     ),
-    year: 2026,
+    challengeLink:
+      "https://www.frontendmentor.io/challenges/kanban-task-management-web-app-wgQLt-HlbB",
     tools: [
       "Nextjs",
       "Firestore",
@@ -48,7 +49,8 @@ const projects = [
         is easy to navigate on <strong>phones, tablets, and desktops</strong>.
       </>
     ),
-    year: 2025,
+    challengeLink:
+      "https://www.frontendmentor.io/challenges/audiophile-ecommerce-website-C8cuSd_wx",
     tools: ["React", "Tailwind CSS", "React Router"],
     liveLink: "https://audiophile-ecommerce-website-jiah.netlify.app/",
     github: "https://github.com/JiaHe35354/audiophile-ecommerce-website",
@@ -68,7 +70,8 @@ const projects = [
         between a light and dark look.
       </>
     ),
-    year: 2025,
+    challengeLink:
+      "https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca",
     tools: ["Nextjs", "CSS Modules", "REST API"],
     liveLink: "https://rest-countries-api-jiah.netlify.app/countries",
     github: "https://github.com/JiaHe35354/rest-countries-api",

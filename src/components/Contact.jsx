@@ -11,13 +11,16 @@ function Contact() {
         <h2 className="heading-secondary mb-16">Let's connect</h2>
         <p>
           Say hello at{" "}
-          <a href="mailto:jia.he5823@gmail.com" className="focus-style">
+          <a
+            href="mailto:jia.he5823@gmail.com"
+            className="contact-link focus-style"
+          >
             jia.he5823@gmail.com
           </a>
         </p>
         <p>
           For more info, here's my{" "}
-          <a href="#" className="focus-style">
+          <a href="#" className="contact-link focus-style">
             resume
           </a>
         </p>

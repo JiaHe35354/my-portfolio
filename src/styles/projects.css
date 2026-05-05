@@ -44,7 +44,7 @@
   border-bottom: var(--border-bottom);
 }
 
-.project-year {
+.project-challenge {
   font-size: 1.6rem;
   padding: 1.6rem 0;
   border-bottom: var(--border-bottom);
@@ -52,8 +52,17 @@
   justify-content: space-between;
 }
 
-.project-year-value {
-  color: var(--color-grey);
+.project-challenge-link {
+  color: var(--color-primary);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-primary);
+  padding-bottom: 0.1rem;
+  transition: all 0.2s ease;
+}
+
+.project-challenge-link:hover {
+  color: var(--color-blue-light);
+  border-bottom-color: var(--color-blue-light);
 }
 
 .project-tools {
@@ -91,12 +100,18 @@
   text-decoration: none;
   color: var(--color-primary);
   text-transform: uppercase;
-  border-radius: 0.5rem;
-  padding: 0.2rem;
+  border-bottom: 1px solid var(--color-primary);
+  transition: all 0.2s ease;
 
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
+}
+
+.project-link:hover,
+.project-link:hover .link-underline {
+  color: var(--color-blue-light);
+  border-bottom-color: var(--color-blue-light);
 }
 
 .link-wrapper {
@@ -115,11 +130,11 @@
   height: 2.2rem;
 }
 
-.link-underline {
+/* .link-underline {
   height: 1px;
   width: 100%;
   background-color: var(--color-primary);
-}
+} */
 
 /* 1024 */
 @media only screen and (max-width: 64em) {
