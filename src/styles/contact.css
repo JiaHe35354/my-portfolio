@@ -1,12 +1,4 @@
 .contact-section {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2.4rem;
-}
-
-.contact-content {
-  display: flex;
-  flex-direction: column;
 }
 
 .contact-link {
@@ -25,8 +17,8 @@
 
 .icon-group {
   display: flex;
-  gap: 2rem;
-  margin-top: 4rem;
+  gap: 1.5rem;
+  margin-top: 2rem;
 }
 
 .icon-group a {
@@ -34,70 +26,12 @@
 }
 
 .copyright {
-  margin-top: auto;
   font-size: 1.6rem;
-}
-
-.copyright-tablet {
-  font-size: 1.6rem;
-  margin-top: 1.6rem;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  gap: 2.4rem;
-}
-
-.form-control {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-}
-
-.form-control label {
-  font-size: 1.6rem;
-}
-
-.form-control input {
-  height: 5rem;
-}
-
-.form-control input,
-.form-control textarea {
-  padding: 1.2rem 1.6rem;
-
-  color: var(--color-dark);
-  border: 1px solid var(--color-dark);
-  border-radius: 5px;
-  font: inherit;
-}
-
-.form-control input:focus-visible,
-.form-control textarea:focus-visible {
-  outline: none;
-  border-color: var(--color-primary);
-}
-
-.submit-btn {
-  align-self: start;
-  margin-top: 1.6rem;
-  height: 4.8rem;
 }
 
 /* 980px */
 @media only screen and (max-width: 61.25em) {
-  .contact-section {
-    display: flex;
-    flex-direction: column;
-    gap: 6.4rem;
-  }
-
-  .form-control input {
-    height: 4.5rem;
-  }
-
-  .submit-btn {
-    margin-top: 0.8rem;
+  .icon-group {
+    gap: 1rem;
   }
 }

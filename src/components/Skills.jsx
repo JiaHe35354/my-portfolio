@@ -1,29 +1,3 @@
-import htmlIcon from "../assets/images/html-icon.svg";
-import cssIcon from "../assets/images/css-icon.svg";
-import jsIcon from "../assets/images/javascript-icon.svg";
-import reactIcon from "../assets/images/react-js-icon.svg";
-import nextIcon from "../assets/images/nextjs-icon.svg";
-import reduxIcon from "../assets/images/redux-icon.svg";
-import tailwindIcon from "../assets/images/tailwind-css-icon.svg";
-import bootstrapIcon from "../assets/images/bootstrap-5-logo-icon.svg";
-import sassIcon from "../assets/images/sass-icon.svg";
-import gitIcon from "../assets/images/git-icon.svg";
-import githubIcon from "../assets/images/github-icon-black.svg";
-
-const skillsIcons = [
-  { name: "HTML", icon: htmlIcon },
-  { name: "CSS", icon: cssIcon },
-  { name: "JavaScript", icon: jsIcon },
-  { name: "React.js", icon: reactIcon },
-  { name: "Next.js", icon: nextIcon },
-  { name: "Redux.js", icon: reduxIcon },
-  { name: "Tailwind CSS", icon: tailwindIcon },
-  { name: "Bootstrap", icon: bootstrapIcon },
-  { name: "SASS", icon: sassIcon },
-  { name: "Git", icon: gitIcon },
-  { name: "GitHub", icon: githubIcon },
-];
-
 function Skills() {
   return (
     <section className="skills-section section-container" id="skills">
@@ -32,23 +6,32 @@ function Skills() {
       <div className="skills-content">
         <p className="descriptive-text">
           A look at my <strong>technical stack</strong>. I use these tools to
-          build <strong>polished web experiences</strong> that focus on clean
-          code and great user experience
+          build <strong>practical, responsive web applications</strong> with a
+          focus on clean code, user experience, and reliable functionality.
         </p>
 
-        <ul className="skills-list">
-          {skillsIcons.map((skill) => (
-            <li key={skill.name} className="skill-item">
-              <img
-                src={skill.icon}
-                alt={`${skill.name} icon`}
-                className="skill-icon"
-              />
-
-              <span className="skill-name">{skill.name}</span>
-            </li>
-          ))}
-        </ul>
+        <div className="skills-list">
+          <div className="skill-category">
+            <h3 className="skills-heading">Frontend</h3>
+            <p className="skills-description">
+              React, TypeScript, JavaScript, Next.js, HTML, CSS, Tailwind CSS
+            </p>
+          </div>
+          <div className="skill-category">
+            <h3 className="skills-heading">Backend</h3>
+            <p className="skills-description"> PHP, Laravel, Inertia.js </p>
+          </div>
+          <div className="skill-category">
+            <h3 className="skills-heading">Database</h3>
+            <p className="skills-description">
+              PostgreSQL, Firebase / Firestore
+            </p>
+          </div>
+          <div className="skill-category">
+            <h3 className="skills-heading">Tools</h3>
+            <p className="skills-description"> Git, GitHub, Docker, Vite </p>
+          </div>
+        </div>
       </div>
     </section>
   );

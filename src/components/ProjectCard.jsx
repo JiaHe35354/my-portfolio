@@ -18,21 +18,27 @@ function ProjectCard({
 
       <div className="project-info-box">
         <h3 className="heading-tertiary mb-16">{title}</h3>
+
         <p className="mb-32 descriptive-text">{description}</p>
+
         <p className="project-info">Project info</p>
-        <p className="project-challenge">
-          <span>Challenge:</span>
-          <span>
-            <a
-              href={challengeLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-challenge-link focus-style"
-            >
-              Frontend Mentor
-            </a>
-          </span>
-        </p>
+
+        {challengeLink && (
+          <p className="project-challenge">
+            <span>Challenge:</span>
+            <span>
+              <a
+                href={challengeLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-challenge-link focus-style"
+              >
+                Frontend Mentor
+              </a>
+            </span>
+          </p>
+        )}
+
         <div className="project-tools">
           <span className="tools-title">Tools:</span>
 
@@ -59,7 +65,6 @@ function ProjectCard({
                 className="project-cta-icon"
               />
             </div>
-            <div className="link-underline"></div>
           </a>
 
           <a
@@ -76,7 +81,6 @@ function ProjectCard({
                 className="project-gh-icon"
               />
             </div>
-            <div className="link-underline"></div>
           </a>
         </div>
       </div>

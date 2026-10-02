@@ -7,10 +7,10 @@ function Contact() {
 
   return (
     <section className="contact-section section-container" id="contact">
-      <div className="contact-content">
+      <div>
         <h2 className="heading-secondary mb-16">Let's connect</h2>
         <p>
-          Say hello at{" "}
+          Get in touch at{" "}
           <a
             href="mailto:jia.he5823@gmail.com"
             className="contact-link focus-style"
@@ -44,34 +44,8 @@ function Contact() {
           </a>
         </div>
 
-        {!isTablet && <p className="copyright">&copy;2026 Jia He</p>}
+        <p className="copyright">&copy;2026 Jia He</p>
       </div>
-
-      <form className="form">
-        <div className="form-control">
-          <label htmlFor="name">Name</label>
-          <input type="text" id="name" name="name" />
-        </div>
-
-        <div className="form-control">
-          <label htmlFor="email">Email</label>
-          <input type="email" id="email" name="email" />
-        </div>
-
-        <div className="form-control">
-          <label htmlFor="subject">Subject</label>
-          <input type="text" id="subject" name="subject" />
-        </div>
-
-        <div className="form-control">
-          <label htmlFor="message">Message</label>
-          <textarea rows={5} id="message" name="message" />
-        </div>
-
-        <button className="btn-primary submit-btn focus-style">submit</button>
-      </form>
-
-      {isTablet && <p className="copyright-tablet">&copy;2026 Jia He</p>}
     </section>
   );
 }

@@ -1,6 +1,4 @@
 import HeroImage from "../assets/images/img-hero.jpg";
-import LinkedinIcon from "../assets/images/icon-linkedin.svg";
-import GithubIcon from "../assets/images/icon-github.svg";
 
 import { smoothScrollTo } from "../util/smoothScrollTo";
 
@@ -15,36 +13,19 @@ function Hero() {
         <h1 className="heading-primary">Hey, I'm Jia He</h1>
         <p className="hero-description">
           <span className="hero-occupation">
-            Frontend Developer | React & Next.js
+            Frontend / Full-Stack Developer | React, TypeScript & Laravel
           </span>
           <span className="hero-text descriptive-text mb-12">
-            A Seville-based Frontend Developer focused on turning complex
-            designs into working products with React and Next.js. Currently
-            seeking my first Junior Frontend role.
+            A Seville-based developer focused on building practical,
+            user-friendly web applications with React, TypeScript, and Laravel.
+            Currently seeking my first professional software development role.
           </span>
         </p>
 
-        <div className="btnGroup">
+        <div>
           <button className="btn-primary focus-style" onClick={handleScroll}>
             contact me
           </button>
-
-          <a
-            href="https://www.linkedin.com/in/jia-he-6b329197/"
-            target="_blank"
-            rel="noreferrer"
-            className="focus-style"
-          >
-            <img src={LinkedinIcon} alt="linkedin" />
-          </a>
-          <a
-            href="https://github.com/JiaHe35354"
-            target="_blank"
-            rel="noreferrer"
-            className="focus-style"
-          >
-            <img src={GithubIcon} alt="github" />
-          </a>
         </div>
       </div>
 

@@ -9,44 +9,44 @@ const projects = [
     title: "Kanban Task Management",
     description: (
       <>
-        A <strong>fully functional, responsive</strong> task management app
-        built as a Frontend Mentor challenge that helps you{" "}
-        <strong>organize project work</strong>. Built to be{" "}
-        <strong>easy to use</strong> and <strong>clean</strong>, the app helps
-        users manage large projects by putting tasks into{" "}
-        <strong>boards and columns you can change</strong>. It features{" "}
-        <strong>full CRUD actions</strong> (create, read, update, delete),
-        <strong>detailed task lists</strong>, and a{" "}
-        <strong>smooth theme-switcher</strong>
-        (Light/Dark mode) carefully designed to look great in any workspace.
+        A <strong>full-stack Kanban application</strong> built with{" "}
+        <strong>Laravel, Inertia.js, React, TypeScript, and PostgreSQL</strong>.
+        The application allows users to create and manage{" "}
+        <strong>boards, columns, tasks, and subtasks</strong> with persistent
+        backend state. It features{" "}
+        <strong>drag-and-drop task management</strong>, task reordering,{" "}
+        <strong>authentication and authorization</strong>, server-side
+        validation, and a responsive interface with{" "}
+        <strong>light and dark themes</strong>.
       </>
     ),
-    challengeLink:
-      "https://www.frontendmentor.io/challenges/kanban-task-management-web-app-wgQLt-HlbB",
     tools: [
-      "Nextjs",
-      "Firestore",
-      "Firebase Auth",
-      "CSS Modules",
+      "Laravel",
+      "Inertia.js",
+      "React",
+      "TypeScript",
+      "PostgreSQL",
+      "Tailwind CSS",
       "Dnd-kit",
-      "Vite",
+      "Docker",
     ],
-    liveLink: "https://kanban-taskmanagement-jia.netlify.app/",
-    github: "https://github.com/JiaHe35354/kanban-task-management",
+    liveLink: "https://kanban-fullstack-laravel.onrender.com/",
+    github: "https://github.com/JiaHe35354/kanban-fullstack-laravel",
   },
   {
     img: AudiophileImg,
     title: "Audiophile E-commerce Website",
     description: (
       <>
-        A <strong>modern e-commerce website</strong> built as a Frontend Mentor
-        challenge for high-end audio gear. The app features a{" "}
-        <strong>smooth shopping flow</strong>, from browsing product categories
-        to adding items to a <strong>functional shopping cart</strong>. It
-        includes a <strong>detailed checkout page</strong> with form validation
-        to ensure all user details are correct. The design is{" "}
-        <strong>fully responsive</strong>, making sure the store looks great and
-        is easy to navigate on <strong>phones, tablets, and desktops</strong>.
+        A <strong>responsive e-commerce SPA</strong> built with{" "}
+        <strong>React, React Router, and Tailwind CSS</strong>. The application
+        provides a complete shopping experience, including{" "}
+        <strong>
+          product browsing, category navigation, a shopping cart, and checkout
+          form validation
+        </strong>
+        . The interface is designed to provide a consistent experience across{" "}
+        <strong>mobile, tablet, and desktop</strong> screen sizes.
       </>
     ),
     challengeLink:
@@ -60,14 +60,15 @@ const projects = [
     title: "REST Countries API",
     description: (
       <>
-        An <strong>interactive world map app</strong> built as a Frontend Mentor
-        challenge that pulls real-time data from a global API. Users can{" "}
-        <strong>search for specific countries</strong> or{" "}
-        <strong>filter them by region</strong> to find information quickly. The
-        app features a <strong>detailed info page</strong> for every country,
-        showing facts like population, native name, and borders. I also built a{" "}
-        <strong>custom color theme toggle</strong> so users can easily switch
-        between a light and dark look.
+        An <strong>interactive country information application</strong> that
+        consumes data from a REST API. Users can{" "}
+        <strong>
+          search for countries, filter them by region, and view detailed country
+          information
+        </strong>
+        , including population, languages, and neighboring countries. The
+        application also includes <strong>client-side routing</strong>,
+        responsive layouts, and a <strong>light and dark theme</strong>.
       </>
     ),
     challengeLink:
@@ -82,7 +83,7 @@ const projects = [
   //   description: "A quiz app using Scss and vanilla JavaScript",
   //   year: 2026,
   //   tools: ["React"],
-  //   liveLink: "",
+  //   liveLink: "https://mood-tracking-app-fm-xavi-jia.vercel.app/",
   //   github: "https://github.com/xaviguasch/mood-tracking-app-fm-xavi-jia",
   // },
 ];
@@ -92,9 +93,10 @@ function Projects() {
     <section className="projects-section section-container" id="projects">
       <h2 className="heading-secondary">Featured projects</h2>
       <p className="projects-text">
-        Below are selected projects from <strong>Frontend Mentor</strong>{" "}
-        challenges. These projects demonstrate my ability to transform
-        professional designs into functional, responsive web applications.
+        A selection of projects that demonstrate my experience building{" "}
+        <strong>responsive frontend interfaces</strong> and{" "}
+        <strong>full-stack web applications</strong>, from interactive user
+        experiences to backend logic and persistent data.
       </p>
 
       <ul className="projects-list">

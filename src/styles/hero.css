@@ -33,19 +33,6 @@
   font-weight: 500;
 }
 
-.btnGroup {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-}
-
-.btnGroup a {
-  border-radius: 0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .hero-img-box {
   width: 100%;
   height: 100%;
