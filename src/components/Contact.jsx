@@ -27,7 +27,7 @@ function Contact() {
 
         <div className="icon-group">
           <a
-            href="https://www.linkedin.com/in/jia-he-6b329197/"
+            href="https://www.linkedin.com/in/jiahe-fullstack/"
             target="_blank"
             rel="noreferrer"
             className="focus-style"

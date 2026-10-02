@@ -6,8 +6,9 @@ function Skills() {
       <div className="skills-content">
         <p className="descriptive-text">
           A look at my <strong>technical stack</strong>. I use these tools to
-          build <strong>practical, responsive web applications</strong> with a
-          focus on clean code, user experience, and reliable functionality.
+          build <strong>practical, responsive web applications,</strong>{" "}
+          focusing on user experience, functionality, and solving real-world
+          problems.
         </p>
 
         <div className="skills-list">
