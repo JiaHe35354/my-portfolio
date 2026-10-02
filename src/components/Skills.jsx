@@ -1,7 +1,7 @@
 function Skills() {
   return (
     <section className="skills-section section-container" id="skills">
-      <h2 className="heading-secondary mb-12">My capabilities</h2>
+      <h2 className="heading-secondary mb-32">My capabilities</h2>
 
       <div className="skills-content">
         <p className="descriptive-text">

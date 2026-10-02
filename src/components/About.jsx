@@ -3,11 +3,11 @@ import DownloadIcon from "../assets/images/icon-download.svg";
 function About() {
   return (
     <section className="about-section section-container" id="about">
-      <h2 className="heading-secondary mb-16">About Me</h2>
+      <h2 className="heading-secondary mb-32">About Me</h2>
 
       <div className="about-content ">
         <div className="about-description">
-          <h3 className="heading-tertiary">
+          <h3 className="heading-tertiary mb-12">
             I’m a frontend-focused developer with full-stack experience, based
             in Seville and looking for opportunities to build practical web
             applications.
