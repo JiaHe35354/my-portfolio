@@ -13,12 +13,13 @@ function Hero() {
         <h1 className="heading-primary">Hey, I'm Jia He</h1>
         <p className="hero-description">
           <span className="hero-occupation">
-            Frontend / Full-Stack Developer | React, TypeScript & Laravel
+            Full-Stack Developer | Laravel, React & TypeScript
           </span>
           <span className="hero-text descriptive-text mb-12">
             A Seville-based developer focused on building practical,
-            user-friendly web applications with React, TypeScript, and Laravel.
-            Currently seeking my first professional software development role.
+            user-friendly web applications across the frontend and backend with
+            Laravel, React, and TypeScript. Currently seeking my first
+            professional software development role.
           </span>
         </p>
 

@@ -20,7 +20,7 @@ function Contact() {
         </p>
         <p>
           For more info, here's my{" "}
-          <a href="#" className="contact-link focus-style">
+          <a href="/resume.pdf" download className="contact-link focus-style">
             resume
           </a>
         </p>

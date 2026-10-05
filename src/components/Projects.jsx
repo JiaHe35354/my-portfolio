@@ -77,15 +77,6 @@ const projects = [
     liveLink: "https://rest-countries-api-jiah.netlify.app/countries",
     github: "https://github.com/JiaHe35354/rest-countries-api",
   },
-  // {
-  //   img: x,
-  //   title: "Mood Tracking App",
-  //   description: "A quiz app using Scss and vanilla JavaScript",
-  //   year: 2026,
-  //   tools: ["React"],
-  //   liveLink: "https://mood-tracking-app-fm-xavi-jia.vercel.app/",
-  //   github: "https://github.com/xaviguasch/mood-tracking-app-fm-xavi-jia",
-  // },
 ];
 
 function Projects() {
@@ -93,10 +84,10 @@ function Projects() {
     <section className="projects-section section-container" id="projects">
       <h2 className="heading-secondary">Featured projects</h2>
       <p className="projects-text">
-        A selection of projects that demonstrate my experience building{" "}
-        <strong>responsive frontend interfaces</strong> and{" "}
-        <strong>full-stack web applications</strong>, from interactive user
-        experiences to backend logic and persistent data.
+        A selection of projects that demonstrate my experience building
+        responsive frontend interfaces, integrating REST APIs, and developing
+        full-stack web applications with backend functionality and persistent
+        data.
       </p>
 
       <ul className="projects-list">

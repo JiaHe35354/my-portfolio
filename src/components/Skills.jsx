@@ -24,13 +24,13 @@ function Skills() {
           </div>
           <div className="skill-category">
             <h3 className="skills-heading">Database</h3>
-            <p className="skills-description">
-              PostgreSQL, Firebase / Firestore
-            </p>
+            <p className="skills-description">PostgreSQL, Firestore</p>
           </div>
           <div className="skill-category">
             <h3 className="skills-heading">Tools</h3>
-            <p className="skills-description"> Git, GitHub, Docker, Vite </p>
+            <p className="skills-description">
+              Git, GitHub, Docker, Vite, Firebase
+            </p>
           </div>
         </div>
       </div>
