@@ -30,6 +30,7 @@ const projects = [
       "Dnd-kit",
       "Docker",
     ],
+    video: "/videos/kanban-demo.mp4",
     liveLink: "https://kanban-fullstack-laravel.onrender.com/",
     github: "https://github.com/JiaHe35354/kanban-fullstack-laravel",
   },

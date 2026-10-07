@@ -1,5 +1,6 @@
 import CtaIcon from "../assets/images/icon-cta.svg";
 import GithubIcon from "../assets/images/icon-github.svg";
+import VideoDialog from "./VideoDialog";
 
 function ProjectCard({
   img,
@@ -7,6 +8,7 @@ function ProjectCard({
   description,
   challengeLink,
   tools,
+  video,
   liveLink,
   github,
 }) {
@@ -49,7 +51,16 @@ function ProjectCard({
           </ul>
         </div>
 
+        {video && (
+          <p className="project-demo-notice">
+            The live demo may take a few seconds to load. You can watch the demo
+            video while you wait.
+          </p>
+        )}
+
         <div className="project-links">
+          {video && <VideoDialog videoSrc={video} />}
+
           <a
             className="project-link focus-style"
             href={liveLink}
@@ -66,7 +77,6 @@ function ProjectCard({
               />
             </div>
           </a>
-
           <a
             className="project-link focus-style"
             href={github}
